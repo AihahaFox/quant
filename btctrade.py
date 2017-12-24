@@ -8,6 +8,7 @@ class BtcTradeMarketApi:
         self.base_url = 'https://api.btctrade.com/api/'
         self.params = {
         'coin': None
+        # xcsa
         }
 
     def get_ticker(self, coin_name):
